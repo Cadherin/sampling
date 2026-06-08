@@ -40,30 +40,85 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `1`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of the survey is to determine the causes job dissatisfaction among entry- and lower-level employees and translate the insights into actions that could be taken to support retention efforts.  
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
-```
+1. Sample type: To ensure all employees in entry- and lower-lever roles are included in the survey, a stratified sampling approach will be taken to ensure all departments across the company are invited to participate in the survey.  
 
+2. Sample size: Assuming the company has a total of 2,000 entry- and lower-level employees (N=2,000) and targeting a margin of error of no more than 5% (e=0.05), this translates to a Z-score of 1.96 (Z=1.96). I will also assume an expected distribution of responses to have a standard deviation of 0.5 or 50% (p=0.5). 
+
+The ideal sample size (n0) could be determined by the formula: n0 = Z^2*p*(1-p)/e^2 = 1.96^2*0.5(1-0.5)/0.05^2 = 384.16 or 385. 
+
+The adjusted sample size (n) based on known total population can be found using the formula: n = n0/(1+(n0-1)/N) = 385/(1+(385-1)/2000) = 322.99 or 323
+
+3. Target population: All active entry- and lower-level employees across all departments within the company. 
+
+4. Sampling frame: Active employee records from the company's HR system. A filter is to be applied to extract employee roles that align to the definition of entry- and lower level employees. These could include analysts, associates, junior developers, etc. HR team will be consulted on the proper filter to use.
+
+5. Survey mode(s): A web-based survey using an company approved platform such as Microsoft Forms or Qualtrics are to be used. 
+
+6. Timeline: The duration of the survey will last for 4 weeks. The first week will be devoted to the launch and raising awareness. The second and the third week will be focused on progress monitoring and sending out reminders to participants. The final week will be focused on data consolidation and last call to participants.
+
+7. Response rate: We will target response rate to be 30-50%. This will ensure the number of respondents are beyond n0=323.
+
+8. Weights: To ensure participation from all parts of the company is accounted for, weights referred to non-response are to be applied to departments that are underrepresented to ensure that a single department does not skew the overall results. 
+
+9. Data processing: Quantitative and qualitative data will be handled differently. Quantitative data will be aggregated as appropriate. Qualitative data with text responses will be processed using theme clustering or natural language processing to extract key themes and keywords. For instance, clustering of causes of employee turnover could include:
+- Training and feedback
+- Trust
+- Job stress
+- Working environment
+- Salary
+- Leaders and manager
+- Challenging work
+- Family pressure
+- Group size
+, etc.
+
+10. Cleaning, imputation: Export and consolidate survey data. Remove duplicates as necessary. Optional questions without responses will be treated as not answered instead of imputation to ensure that the results are not skewed.
+
+11. Sources of error: There could be factors that lead to sources of errors such as employees who are readily disengaged and planning for an exit may either ignore the survey entirely or provide responses or comments that are on the extreme end of dissatisfaction. These could contribute to either the non-response rate or more severe dissatisfaction. Textual questions could lead to more ambiguous response from participants that may require more processing to extract meanings and for the textual information to be properly clustered or grouped appropriately. 
+
+12. Limitations, known biases, etc.: While the survey is to be released to current employees, it may not capture sentiments from those who readily left the company. And these individuals may have insights that could not be captured from the intended survey population. 
+
+13. Link to documentation and any additional sources used
+https://doi.org/10.24018/ejbmr.2021.6.3.893
+https://doi.org/10.1016/j.eswa.2025.126575
+
+
+```
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. How strongly do you agree or disagree with the following statement? I feel valued by my department leadership for the contributions that I have made to the team. (Options include: Strongly agree, agree, neither agree nor disagree, disagree, strongly disagree)
+
+2. Which of the following factors would most significantly improve your day-to-day satisfaction at the company? Select up to 3 factors.
+(Options include: 
+- Better health, wellness or mental health benefits
+- Improved communication and transparency from leadership
+- More opportunities to participate in professional development and training
+- More flexibility in remote work and flexible work hours
+- Clearer pathways for career progression and promotions
+- Higher base compensation and bonuses 
+)
+
+3. Which of the following best describes your current career outlook in this company? 
+(Options include: 
+- I see myself staying with the company for the next 2+ years
+- I see myself statying with the company for the next year but I am open to outside opportunities
+- I am actively looking for new jobs outside the company
+- I plan to leave the company in the near future regardless of whether I have the next opporunity confirmed.
+)
+
+4. How often have you felt burnout or overwhelmed by your workload? (Options include: Always, frequently, Sometimes, rarely, never)
+
+5. What is a change that this company could make to prevent attrition from entry-level employees? (Qualitative question)
+
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +126,10 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+This survey features a low friction start by asking the first question that uses an agreement scale requiring little effort to answer. The second question features bounded choices whereby respondents are asked to prioritize what truly matters to them to yield clear data that HR or the company could act upon. It is meant to be constructive and with the mandate to mitigate attritions. Question 3 intends to explore if responsdent has an intent to leave. Question 4 is designed to evaluate if there are signs that the respondent is readily experiencing burnout and to what degree. The open ended question as the final question captures any additional comments that the respondent may have and not captured by the rest of the questions. 
+
+By varying question types from the easiest to those requiring progressively more cognitive load, the survey was designed to maximize effectiveness and balance constraints including time required to complete the survey and ease of providing constructive responses that are either on a standard scale or through selection of available options. Questions that require free-form textual responses are limited to a minimum while the opportunity is provided as a catchall. 
+
 ```
 
 ## Rubric
