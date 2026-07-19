@@ -19,10 +19,10 @@ Select one of the scenarios below and design a survey to meet the need(s) outlin
 
 ### Part B - Survey Evaluation:
 
-For the **Canadian General Social Survey on Giving, Volunteering, and Participating, 2018 (cycle 33)**, conducted by Statistics Canada find any and all available documentation for the data gathered and identify and describe the survey features indicated below.
+For the **Canadian General Social Survey (GSS) on Giving, Volunteering, and Participating (GVP), 2018 (cycle 33)**, conducted by Statistics Canada find any and all available documentation for the data gathered and identify and describe the survey features indicated below.
 
-1. Sample type
-2. Sample size
+1. Sample type: 
+2. Sample size: 
 3. Target population
 4. Sampling frame
 5. Survey mode(s) 
@@ -126,14 +126,53 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-This survey features a low friction start by asking the first question that uses an agreement scale requiring little effort to answer. The second question features bounded choices whereby respondents are asked to prioritize what truly matters to them to yield clear data that HR or the company could act upon. It is meant to be constructive and with the mandate to mitigate attritions. Question 3 intends to explore if responsdent has an intent to leave. Question 4 is designed to evaluate if there are signs that the respondent is readily experiencing burnout and to what degree. The open ended question as the final question captures any additional comments that the respondent may have and not captured by the rest of the questions. 
+ The **Canadian General Social Survey on Giving, Volunteering, and Participating, 2018 (cycle 33)**, conducted by Statistics Canada was reviewed. The sampling features are described below. [Source](https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234#a2)
 
-By varying question types from the easiest to those requiring progressively more cognitive load, the survey was designed to maximize effectiveness and balance constraints including time required to complete the survey and ease of providing constructive responses that are either on a standard scale or through selection of available options. Questions that require free-form textual responses are limited to a minimum while the opportunity is provided as a catchall. 
+1. Sample type: 
+- This is a sample survey with a cross-sectional design.
+
+2. Sample size: 
+- A field sample of approximatively 50,000 units was used. Among them, about 40,000 invitation letters to the electronic questionnaire were sent to selected households across Canada. A completion of 24,000 questionnaires was expected.
+
+3. Target population
+-  The target population for the GSS Giving, volunteering and participating includes all persons 15 years of age and older living in the ten provinces of Canada. It excludes full-time (residing for more than six months) residents of institutions. 
+
+4. Sampling frame
+- This survey uses a frame that combines landline and cellular telephone numbers from the Census and various administrative sources with Statistics Canada's dwelling frame. Records on the frame are groups of one or several telephone numbers associated with the same address (or single telephone number in the case a link between a telephone number and an address could not be established). This sampling frame is used to obtain a better coverage of households with a telephone number. 
+
+5. Survey mode(s) 
+- The survey uses a combination of phone interviews and on-line questionnaires.
+
+6. Timeline
+- Data collection occured within 2018 from 2018-09-04 to 2018-12-28
+
+7. Response rate
+- The overall response rate was 41.9%.
+
+8. Weights
+- WGHT_PER: This is the basic weighting factor for analysis at the person level, i.e. to calculate estimates of the number of persons (non-institutionalized and aged 15 or over) having one or several given characteristics. WGHT_PER would range from 50 to 5,000 depending on where the participate resides.
+
+- In addition to the estimation weights, bootstrap weights have been created for the purpose of design-based variance estimation. This weight hovers around the respective WGHT_PER.
+
+9. Data processing
+- Edits were performed both automatically and manually at macro and micro levels. For instance, family relationships were checked to ensure data integrity. The age of the respondents were also checked against their birthdates. Computer edits were performed to edit the flow of the questions to ensure that respondents answered the right questions to resolve errors. 
+
+10. Cleaning, imputation, etc.
+- Income information was obtained through linkage to tax data. Missing information was imputed. Family income was used instead of household income.
+
+11. Sources of error
+- Sources of errors include imperfect coverage and non-response; differences between target population and surveyed population. Response errors and processing errors are also pontential sources of errors. 
+
+12. Limitations, known biases, etc
+Biases could be stemmed from excluded population that differ from the rest of the population. Non-response could also introduce biases.
+
+13. Link to documentation and any additional sources used
+[General Social Survey - Canadians' Safety (GSS)](https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=1235019)
+
 
 ```
 
 ## Rubric
-
 -	All required components are present and complete **Complete / Incomplete**
 -	Choice of sampling strategy for Part A is justified and related to survey purpose **Complete / Incomplete**
 -	Information for Part B is complete and correct **Complete / Incomplete**
